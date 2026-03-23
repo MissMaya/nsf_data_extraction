@@ -1,1 +1,1 @@
-# unam-dicabenovo-scraper
+# Abbreviations Database
