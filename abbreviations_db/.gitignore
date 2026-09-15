@@ -1,3 +1,17 @@
 venv/
 .env
-venv/
+
+# Raw data files
+ingestion/raw/*
+
+# Node dependencies
+node_modules/
+
+# Generated canonical abbreviation outputs
+ingestion/canonical_output/*
+!ingestion/canonical_output/.gitkeep
+
+# Extracted/intermediate working data
+ingestion/working/*
+!ingestion/working/.gitkeep
+
